@@ -12,7 +12,8 @@ body{
 }
 main{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 .container{
     background-color: #ffff;
@@ -66,7 +67,7 @@ hr{
     gap: 20px;
 }
 .blog-box img{
-    width: 217px;
+    /* width: 217px; */
     height: 117px;
 }
 .blog-name{
@@ -81,6 +82,40 @@ hr{
     font-size: 16px;  
     color: #562EFF;
 }
+.caption a{
+    text-decoration: none;
+    color: #562EFF;
+}
 span{
     color: #9F9F9F;
+}
+/* ---------------------------
+courses section design styles 
+------------------------------*/
+.courses{
+    display: flex;
+    gap: 20px;
+    
+}
+.courses .coures-banner img{
+   
+    width: 224px;
+    height: 104px;
+}
+.coures-dital{
+    width: 224px;
+}
+.course-title{
+    font-weight: 500;
+    font-size: 20px;
+    color: #1E1E1E;
+}
+.fa-star.filled{
+    color: #FFC014;
+}
+.fa-star{
+    font-size: 12px;
+}
+.fa-star.emty{
+    color: #AEAEAE;
 }
